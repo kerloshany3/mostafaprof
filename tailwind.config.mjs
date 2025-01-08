@@ -7,9 +7,12 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        lalezar:['lalezar','sans-serif']
+      },
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primary:"#f3ad31",
+        primary2:"#3a3d44"
       },
     },
   },
