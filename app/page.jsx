@@ -2,15 +2,19 @@ import Image from "next/image";
 import Hero from "./components/Hero";
 import Projects from "./components/Projects";
 import Exp from "./components/Exp";
+import About from "./components/About";
+import GetTouch from "./components/GetTouch";
 
 export default function Home() {
   return (
 
-    <div>
+    <div className=" select-none cursor-default">
 
       <Hero></Hero>
       <Exp></Exp>
       <Projects></Projects>
+      <About></About>
+      <GetTouch></GetTouch>
     </div>
   );
 }

@@ -14,9 +14,9 @@ const Exp = () => {
 
     return (
         <div className='my-20'>
-            <div className='m-6 w-fit mx-auto justify-center text-center'>
-                <h4 className='text-white text-4xl sm:text-5xl md:text-6xl font-bold'>Expertise</h4>
-                <div className='w-full border-t-primary mt-5 border-t-2'></div>
+            <div className='m-6 w-fit mx-auto hover:bg-primary transition  justify-center text-center'>
+                <h4 className='text-white hover:text-primary2 text-4xl sm:text-5xl md:text-6xl font-bold'>Expertise</h4>
+                <div className='w-full  border-t-primary mt-5 border-t-2'></div>
             </div>
 
             <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6'>
@@ -24,7 +24,7 @@ const Exp = () => {
                 <div className='col-span-1 sm:col-span-1 lg:col-span-1'>
                     <Image
                         layout='responsive'
-                        className='rounded-bl-[80] border-primary border-8 rounded-tr-[80] m-5'
+                        className='rounded-bl-[80] shadow-2xl shadow-primary/30 border-primary border-8 rounded-tr-[80] m-5'
                         alt='programming'
                         width={200}
                         height={300}

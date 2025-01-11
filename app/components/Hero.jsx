@@ -14,7 +14,7 @@ const Hero = () => {
         <div>
             <div className=' cursor-default select-none grid-cols-1  grid md:grid-cols-2'>
 
-                <div className="p-5 md:p-9 w-full h-full flex justify-center rounded-tr-[100px] md:rounded-tr-[200px] rounded-bl-[100px] md:rounded-bl-[200px] bg-primary">
+                <div className="p-5 md:p-9 w-full  flex justify-center  md:h-screen rounded-tr-[100px] md:rounded-tr-[200px] rounded-bl-[100px] md:rounded-bl-[200px] shadow-primary/30 shadow-2xl bg-primary">
                     <div className="relative  w-full max-w-[300px] sm:max-w-[400px] md:max-w-[500px]">
                         <Image
                             className="rounded-3xl scale-90 "
@@ -55,11 +55,11 @@ const Hero = () => {
 
                             <div className=' place-items-center  m-6 text-4xl text-primary flex gap-3'>
 
-                                <FaFacebook></FaFacebook>
+                                <FaFacebook className=' hover:scale-125 transition hover:text-blue-500 cursor-pointer'></FaFacebook>
 
-                                <GrInstagram />
-                                <FaXTwitter />
-                                <button className='  flex gap-2 place-items-center bg-primary text-primary2 text-2xl p-2 font-bold rounded-bl-2xl  rounded-tr-2xl '>
+                                <GrInstagram className=' hover:scale-125 transition hover:text-red-500 cursor-pointer' />
+                                <FaXTwitter className=' hover:scale-125 transition hover:text-black cursor-pointer' />
+                                <button className='  hover:scale-110 transition hover:bg-white shadow-xl shadow-primary/30 hover:shadow-white/30 flex gap-2 place-items-center bg-primary text-primary2 text-2xl p-2 font-bold rounded-bl-2xl  rounded-tr-2xl '>
                                     contact
                                     <TbMessageFilled /></button>
 
@@ -75,20 +75,20 @@ const Hero = () => {
 
 
                         <div className="flex flex-col sm:flex-row items-center justify-center md:justify-start gap-4 mt-6">
-                                {/* Read More Button */}
-                                <button className="font-bold flex items-center justify-center gap-2 text-primary2 bg-white rounded-full px-5 py-2 w-full  text-sm sm:text-base md:text-lg">
-                                    <MdCloudDownload />
-                                    Read More
-                                </button>
+                            {/* Read More Button */}
+                            <button className="font-bold shadow-white/30 hover:shadow-primary/30 shadow-xl hover:scale-110 transition hover:bg-primary   flex items-center justify-center gap-2 text-primary2 bg-white rounded-full px-5 py-2 w-full  text-sm sm:text-base md:text-lg">
+                                <MdCloudDownload />
+                                Read More
+                            </button>
 
-                                {/* My CV Button */}
-                                <button className="font-bold flex items-center justify-center gap-3 text-primary2 bg-white rounded-full px-5 py-2 w-full  text-sm sm:text-base md:text-lg">
-                                    <FaFileAlt />
-                                    My CV
-                                </button>
-                            </div>
+                            {/* My CV Button */}
+                            <button className="font-bold   shadow-white/30 hover:shadow-primary/30 shadow-xl hover:scale-110 transition hover:bg-primary  flex items-center justify-center gap-3 text-primary2 bg-white rounded-full px-5 py-2 w-full  text-sm sm:text-base md:text-lg">
+                                <FaFileAlt />
+                                My CV
+                            </button>
+                        </div>
 
-                        
+
 
                     </div>
                 </div>
