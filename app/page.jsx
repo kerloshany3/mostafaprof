@@ -11,9 +11,10 @@ export default function Home() {
     <div className=" select-none cursor-default">
 
       <Hero></Hero>
+      <About></About>
       <Exp></Exp>
       <Projects></Projects>
-      <About></About>
+
       <GetTouch></GetTouch>
     </div>
   );
